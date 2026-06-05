@@ -24,7 +24,7 @@ chmod 600 active_logs
 echo "Active_logs directory has been secured...."
 echo ""
 echo "New permission: "
-ls -ld active_logs
+ls -ld active_logs r
 
 
 
