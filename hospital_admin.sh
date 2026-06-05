@@ -19,4 +19,6 @@ secure_data() {
 }
 
 #The Orchestrator (member 3)
+initialize_system
+secure_data
 
