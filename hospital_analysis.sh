@@ -41,3 +41,6 @@ water_audit(){
     ' active_logs/water_usage_log.log
 
 }
+
+process_vitals
+water_audit
