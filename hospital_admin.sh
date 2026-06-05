@@ -10,7 +10,13 @@ initialize_system() {
 	    echo "Creating active_logs directory..."
         mkdir active_logs
     fi
-
+# --- BLOCK 2: archived_logs ---
+    if [ -d "archived_logs" ]; then
+        echo "archived_logs directory already exists."
+    else
+        echo "Creating archived_logs directory..."
+        mkdir archived_logs
+    fi
 
 
 }
