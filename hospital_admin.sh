@@ -24,4 +24,4 @@ secure_data
 
 echo "System Environment Secured"
 
-
+date
