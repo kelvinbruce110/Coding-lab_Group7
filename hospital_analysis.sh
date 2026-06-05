@@ -17,6 +17,10 @@ water_audit(){
         count++
     }
 
+    END {
+        if (count > 0) {
+            avg = sum / count
+
 
 
 
