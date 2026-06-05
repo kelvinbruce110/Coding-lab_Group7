@@ -11,7 +11,7 @@ process_vitals() {
     printf "Timestamp: %s | Device_ID: %s | Value: %s\n",
     $1, $2, $3
 }' > reports/critical_alerts.txt
-
+echo "Report saved to reports/critical_alerts.txt"
 }
 
 #Facility Auditor (member 6)
