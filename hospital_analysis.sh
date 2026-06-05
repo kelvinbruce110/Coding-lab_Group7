@@ -31,6 +31,6 @@ water_audit(){
         }
     }
 
-    ' active_logs/water_usage.log
+    ' active_logs/water_usage_log.log
 
 }
