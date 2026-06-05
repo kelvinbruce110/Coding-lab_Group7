@@ -3,6 +3,13 @@
 #The Architect (member 1)
 
 initialize_system() {
+	# --- BLOCK 1: active_logs ---
+    if [ -d "active_logs" ]; then
+        echo "active_logs directory already exists."
+    else
+	    echo "Creating active_logs directory..."
+        mkdir active_logs
+    fi
 
 
 
