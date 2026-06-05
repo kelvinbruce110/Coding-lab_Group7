@@ -18,7 +18,14 @@ initialize_system() {
         mkdir archived_logs
     fi
 
-
+# --- BLOCK 3: reports ---
+    if [ -d "reports" ]; then
+        echo "reports directory already exists."
+    else
+        echo "Creating reports directory..."
+        mkdir reports
+    fi
+    echo "All required directories are in place."
 }
 
 
