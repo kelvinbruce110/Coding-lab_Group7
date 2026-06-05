@@ -24,7 +24,7 @@ echo "Logs successfully moved to archived_logs."
 # Recreate empty log files for the Python simulator
 touch active_logs/heart_rate.log
 touch active_logs/temperature.log
-touch active_logs/water_usage.log
+touch active_logs/water_usage.log\
 
 echo "Fresh log files created in active_logs."
 echo "Archive completed at: $(date)"
