@@ -52,4 +52,9 @@ ls -ld active_logs
 }
 
 #The Orchestrator (member 3)
+initialize_system
+secure_data
 
+echo "System Environment Secured"
+
+date
